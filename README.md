@@ -1,8 +1,16 @@
-# Datawrapper Updater
+# Datawrapper-Updater
 
-
+Datawrapper-Diagramme können mit einem Google Spreadsheet, einer externen CSV-Datei oder einer CSV-API verbunden werden, um daraus Daten zu beziehen. Je nach verwendeter Methode müssen jedoch die Diagramme jedoch neu publiziert werden, wenn sich die Daten geändert haben. Der Datawrapper-Updater übernimmt diese Aufgabe mit einem einfachen Skript, welches zeitgesteuert in der Cloud ausgeführt werden kann.
 
 ## Verwendung
+
+1. Repository klonen `git clone https://...`
+2. Erforderliche Module installieren `npm install`
+3. Entwicklungsserver starten `npm watch`
+
+Um die Module installieren und die Entwicklerwerkzeuge nutzen zu können, muss vorher die JavaScript-Runtime [Node.js](https://nodejs.org/en/download/) installiert werden. Informationen für Entwickler finden sich weiter [unten](#user-content-entwickeln).
+
+## Deployment
 
 Diese Anleitung geht davon aus, dass bereits ein Google Cloud-Konto vorhanden und ein Rechnungskonto eingerichtet ist. Außerdem sollte das Google Cloud-Kommandzeilenwerkzeug [installiert](https://cloud.google.com/sdk/install) und mit einem Benutzerkonto [verknüpft](https://cloud.google.com/sdk/docs/initializing) sein.
 
@@ -28,7 +36,7 @@ Google Cloud Function für das aktuelle Projekt aktivieren:
 $ gcloud services enable cloudfunctions.googleapis.com
 ```
 
-Rechenzentrum *europe-west3* (Frankfurt) als Ziel für das Funktions-Deployment festlegen. Das gewählte Rechenzentrum muss identisch sein, mit dem Rechenzentrum für die Firestore-Datenbank:
+Rechenzentrum *europe-west3* (Frankfurt) als Ziel für das Deployment festlegen:
 
 ```console
 $ gcloud config set functions/region europe-west3
@@ -70,4 +78,26 @@ Wie häufig die Updater-Funktion ausgeführt werden soll, kann mit dem Parameter
 
 ```console
 $ gcloud scheduler jobs create pubsub brdata-corona --topic=datawrapper-update --schedule="0 8-20/2 * * *" --time-zone="Europe/Brussels" --message-body="undefined"
+```
+
+## Lokale Entwicklungsumgebung
+
+Um das Skript `index.js` lokal zu testen, verwendet man am besten das Google Functions Framework. Das Functions Framework kann mit dem Befehl `npm run watch` gestartet werden. Das hat den Vorteil, dass das Skript jedes Mal neu geladen wird, sobald man Änderungen am Code vornimmt.
+
+Man kann das Functions Framework aber auch manuell installieren und ausführen:
+
+```console
+$ npm i -g @google-cloud/functions-framework
+```
+
+Funktion *datawrapperUpdater* starten:
+
+```console
+$ functions-framework --target=datawrapperUpdater
+```
+
+Funktion durch einen HTTP-Request starten:
+
+```console
+$ curl -X GET 'localhost:8080'
 ```
