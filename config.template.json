@@ -1,9 +1,18 @@
 {
   "url": "https://api.datawrapper.de/v3/charts/",
-    "apiKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    "charts": [
-      "QW2ITS",
-      "RMP7TA",
-      "A2PSTY"
-    ]
+  "apiKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "charts": [
+    {
+      "id": "QW2ItS",
+      "csvUrl": "https://example.com/my-csv-file-1.csv"
+    },
+    {
+      "id": "RMP7TA",
+      "csvUrl": "https://example.com/my-csv-file-2.csv"
+    },
+    {
+      "id": "A2pSTY",
+      "csvUrl": "https://example.com/my-csv-file-3.csv"
+    }
+  ]
 }
