@@ -23,21 +23,29 @@ Damit der Updater die Datawrapper-Diagramme aktualisieren kann, wird ein API-Tok
   "charts": [
     {
       "id": "QW2ItS",
+      "title": "Line chart",
+      "description": "Look at my beautiful data",
       "csvUrl": "https://example.com/my-csv-file-1.csv"
     },
     {
       "id": "RMP7TA",
+      "title": "Bar chart",
+      "description": "My favourite bar is a bar chart",
       "csvUrl": "https://example.com/my-csv-file-2.csv"
     },
     {
       "id": "A2pSTY",
+      "title": "Pie chart",
+      "description": "Nobody should make pie charts",
       "csvUrl": "https://example.com/my-csv-file-3.csv"
     }
   ]
 }
 ```
 
-Momentan werden nur CSV-Dateien und APIs unterstützt, welche Daten im CSV-Format zurückgeben. Das direkte Einbinden von Google Spreadsheets wird noch nicht (oder nur über Umwege) unterstützt.
+Die Beschreibung `description` wird unterhalb des Titels angezeigt und jeweils noch mit dem Datum der letzten Aktualisierung (Stand: 30.04.2020) versehen. Der Titel `title` wird nicht benötigt, hilft aber dabei einzelne Diagramme wiederzufinden.
+
+**Hinweis:** Momentan werden nur CSV-Dateien und APIs unterstützt, welche Daten im CSV-Format zurückgeben. Das direkte Einbinden von Google Spreadsheets wird noch nicht (oder nur über Umwege) unterstützt.
 
 ## Deployment
 
