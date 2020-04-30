@@ -10,6 +10,35 @@ Datawrapper-Diagramme können mit einem Google Spreadsheet, einer externen CSV-D
 
 Um die Module installieren und die Entwicklerwerkzeuge nutzen zu können, muss vorher die JavaScript-Runtime [Node.js](https://nodejs.org/en/download/) installiert werden. Informationen für Entwickler finden sich weiter [unten](#user-content-entwickeln).
 
+## Konfiguration
+
+In der Konfiguration wird festgelegt, welche Datawrapper-Diagramme aktualisiert und wo die Daten dafür herkommen sollen. Zum Anlegen der Konfiguration empfiehlt es sich den Inhalt der Datei `config.template.json` in eine neue Datei `config.json` zu kopieren.
+
+Damit der Updater die Datawrapper-Diagramme aktualisieren kann, wird ein API-Token benötigt. Diesen kann sich jeder angemeldete Benutzer einfach [online erstellen](https://app.datawrapper.de/account/api-tokens).
+
+```json
+{
+  "url": "https://api.datawrapper.de/v3/charts/",
+  "apiKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "charts": [
+    {
+      "id": "QW2ItS",
+      "csvUrl": "https://example.com/my-csv-file-1.csv"
+    },
+    {
+      "id": "RMP7TA",
+      "csvUrl": "https://example.com/my-csv-file-2.csv"
+    },
+    {
+      "id": "A2pSTY",
+      "csvUrl": "https://example.com/my-csv-file-3.csv"
+    }
+  ]
+}
+```
+
+Momentan werden nur CSV-Dateien und APIs unterstützt, welche Daten im CSV-Format zurückgeben. Das direkte Einbinden von Google Spreadsheets wird noch nicht (oder nur über Umwege) unterstützt.
+
 ## Deployment
 
 Diese Anleitung geht davon aus, dass bereits ein Google Cloud-Konto vorhanden und ein Rechnungskonto eingerichtet ist. Außerdem sollte das Google Cloud-Kommandzeilenwerkzeug [installiert](https://cloud.google.com/sdk/install) und mit einem Benutzerkonto [verknüpft](https://cloud.google.com/sdk/docs/initializing) sein.
@@ -51,7 +80,7 @@ $ gcloud pubsub topics create datawrapper-update
 Updater-Funktion deployen und den Pub/Sub-Auslöser *datawrapper-update* festlegen
 
 ```console
-$ gcloud functions deploy datawrapperUpdater --runtime="nodejs10" --trigger-topic="datawrapper-update"
+$ gcloud functions deploy datawrapperUpdater --runtime=nodejs10 --trigger-topic=datawrapper-update
 ```
 
 Die Abfrage, ob auch eine authentifizierte Ausführung erlaubt werden soll, kann in dem meisten Fällen mit „Nein“ beantwortet werden, da die Funktion vom Google Cloud Scheduler zeitgesteuert ausgelöst werden kann.
