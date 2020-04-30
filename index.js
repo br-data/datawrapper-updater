@@ -2,17 +2,17 @@ const fetch = require('node-fetch');
 
 const { apiKey, charts } = require('./config.json');
 
-const date = new Date();
-const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
-const dateString = date.toLocaleDateString('de-DE', dateOptions);
-
 exports.datawrapperUpdater = async function (req, res) {
   for (const chart of charts) {
-    const { id, csvUrl } = chart;
+    const { id, description, csvUrl } = chart;
+
+    const date = new Date();
+    const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+    const dateString = date.toLocaleDateString('de-DE', dateOptions);
 
     const csvData = await getCsv(csvUrl);
     const dataStatus = await updateData(id, csvData);
-    const metaStatus = await updateMeta(id);
+    const metaStatus = await updateMeta(id, description, dateString);
     const publishStatus = await publishChart(id);
 
     if (dataStatus.error) {
@@ -50,7 +50,7 @@ async function updateData(id, csv) {
   }).then(res => res.text());
 }
 
-async function updateMeta(id) {
+async function updateMeta(id, description, dateString) {
   return fetch(`https://api.datawrapper.de/v3/charts/${id}`, {
     method: 'PATCH',
     headers: {
@@ -59,8 +59,8 @@ async function updateMeta(id) {
     },
     body: JSON.stringify({
       metadata: {
-        annotate: {
-          notes: `Letzte Aktualisierung: ${dateString}`
+        describe: {
+          intro: `${description} (Stand: ${dateString})`
         }
       }
     })
