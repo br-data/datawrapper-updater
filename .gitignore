@@ -1,5 +1,7 @@
 # Project
 config.json
+config.backup.json
+template.html
 
 # Node
 node_modules
