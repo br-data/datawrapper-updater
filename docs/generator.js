@@ -31,4 +31,4 @@ let html = `
   ${sections.trim()}
 `;
 
-fs.writeFileSync('./template.html', html);
+fs.writeFileSync(`${__dirname}/template.html`, html);
