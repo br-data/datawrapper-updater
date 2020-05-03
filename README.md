@@ -47,6 +47,16 @@ Die Beschreibung `description` wird unterhalb des Titels angezeigt und jeweils n
 
 **Hinweis:** Momentan werden nur CSV-Dateien und APIs unterstützt, welche Daten im CSV-Format zurückgeben. Das direkte Einbinden von Google Spreadsheets wird noch nicht (oder nur über Umwege) unterstützt.
 
+## Übersichtsseite
+
+Um den Überblick zu behalten, gibt es die Möglichkeit eine [kleine Übersichtsseite der Diagramme](https://br-data.github.io/datawrapper-updater/) aus der Konfiguration zu erzeugen.
+
+```console
+$ node docs/generator.js
+```
+
+Dabei wir ein iFrame zur Vorschau des jeweiligen Diagrams und der jeweilige Embed-Code dazu in `docs/template.html` erzeugt. Außerdem gibt es einen Link, um das Diagramm direkt in Datawrapper zu bearbeiten. Um zu einer richtigen Webseite zu kommen, sollte es in den meisten Fällen ausreichen, den Inhalt der `docs/template.html` in den Body der `docs/index.html` zu kopieren. Der Inhalt des `docs`-Verzeichnis kann dann mit [Github Page](https://guides.github.com/features/pages/) ausgeliefert werden.
+
 ## Deployment
 
 Diese Anleitung geht davon aus, dass bereits ein Google Cloud-Konto vorhanden und ein Rechnungskonto eingerichtet ist. Außerdem sollte das Google Cloud-Kommandzeilenwerkzeug [installiert](https://cloud.google.com/sdk/install) und mit einem Benutzerkonto [verknüpft](https://cloud.google.com/sdk/docs/initializing) sein.
@@ -65,7 +75,7 @@ Das Projekt als aktuelles Arbeitsprojekt festlegen:
 $ gcloud config set project brdata-corona
 ```
 
-### Updater deployen
+### Funktion deployen
 
 Google Cloud Function für das aktuelle Projekt aktivieren:
 
@@ -103,7 +113,7 @@ Falls man später doch eine nicht authentifizierte Ausführung erlauben möchte,
 $ gcloud alpha functions add-iam-policy-binding datawrapperUpdater --member=allUsers --role=roles/cloudfunctions.invoker
 ```
 
-## Updates zeitgesteuert starten
+### Updates zeitgesteuert starten
 
 Der Google Cloud Scheduler erlaubt es den Updater zeitgesteuert, zu bestimmten Uhrzeiten, auszuführen. Dazu muss der Cloud Scheduler jedoch erstmal für das Projekt aktiviert werden:
 
