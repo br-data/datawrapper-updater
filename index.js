@@ -7,8 +7,9 @@ exports.datawrapperUpdater = async function (req, res) {
     const { id, description, csvUrl } = chart;
 
     const date = new Date();
-    const dateOptions = { year: 'numeric', month: 'numeric', day: 'numeric' };
-    const dateString = date.toLocaleDateString('de', dateOptions);
+    // const dateOptions = { year: 'numeric', month: 'numeric', day: 'numeric' };
+    // const dateString = date.toLocaleDateString('de-DE', dateOptions);
+    const dateString = `${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()}`;
 
     const csvData = await getCsv(csvUrl);
     const dataStatus = await updateData(id, csvData);
