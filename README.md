@@ -124,7 +124,7 @@ $ gcloud services enable cloudscheduler.googleapis.com
 Wie häufig die Updater-Funktion ausgeführt werden soll, kann mit dem Parameter `--schedule` festgelegt werden, welche die Crontab-Syntax unterstützt. Dabei hilft zum Beispiel der [crontab.guru](https://crontab.guru/). Außerdem muss die gültige Zeitzone `--time-zone` und der Pub/Sub-Auslöser `--topic` festgelegt werden. In diesem Beispiel wird der Updater alle zwei Stunden von 8 bis 20 Uhr ausgeführt:
 
 ```console
-$ gcloud scheduler jobs create pubsub brdata-corona --topic=datawrapper-update --schedule="0 4,15 * * *" --time-zone="Europe/Brussels" --message-body="undefined"
+$ gcloud scheduler jobs create pubsub brdata-corona --topic=datawrapper-update --schedule="0 4,15 * * *" --time-zone="Europe/Berlin" --message-body="undefined"
 ```
 
 ## Lokale Entwicklungsumgebung
