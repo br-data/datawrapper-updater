@@ -45,7 +45,7 @@ Damit der Updater die Datawrapper-Diagramme aktualisieren kann, wird ein API-Tok
 
 Die Beschreibung `description` wird unterhalb des Titels angezeigt und jeweils noch mit dem Datum der letzten Aktualisierung (Stand: 30.04.2020) versehen. Der Titel `title` wird nicht benötigt, hilft aber dabei einzelne Diagramme wiederzufinden.
 
-**Hinweis:** Momentan werden nur CSV-Dateien und APIs unterstützt, welche Daten im CSV-Format zurückgeben. Das direkte Einbinden von Google Spreadsheets wird noch nicht (oder nur über Umwege) unterstützt.
+**Hinweis:** Momentan werden nur CSV-Dateien und APIs unterstützt, welche Daten im CSV-Format zurückgeben. Das direkte Einbinden von Google Spreadsheets wird noch nicht unterstützt. Allerdings kann man relativ einfach an den CSV-Link hinter einem Google Spreadsheet herankommen, in dem man am Ende einer Spreadsheet-URL `edit#gid=281917130` durch `export?format=csv#gid=281917130` ersetzen. Der Parameter `gid` steht dabei für das aktuelle Arbeitsblatt.
 
 ## Übersichtsseite
 
