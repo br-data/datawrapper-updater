@@ -113,6 +113,12 @@ Falls man später doch eine nicht authentifizierte Ausführung erlauben möchte,
 $ gcloud alpha functions add-iam-policy-binding datawrapperUpdater --member=allUsers --role=roles/cloudfunctions.invoker
 ```
 
+Werden in einem Durchlauf nicht alle Charts aktualisiert, kann eine Erhöhung des Timeouts auf das Maximum von 540 Sekunden (9 Minuten) Abhilfe schaffen. Normalerweise wird eine Funktion nach 60 Sekunden beendet.
+
+```console
+$ gcloud functions deploy datawrapperUpdater --runtime=nodejs10 --timeout=540s --trigger-topic=datawrapper-update
+```
+
 ### Updates zeitgesteuert starten
 
 Der Google Cloud Scheduler erlaubt es den Updater zeitgesteuert, zu bestimmten Uhrzeiten, auszuführen. Dazu muss der Cloud Scheduler jedoch erstmal für das Projekt aktiviert werden:
