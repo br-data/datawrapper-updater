@@ -95,10 +95,10 @@ Neues Pub/Sub-Thema *datawrapper-update* erstellen, welches die Updater-Funktion
 $ gcloud pubsub topics create datawrapper-update
 ```
 
-Updater-Funktion deployen und den Pub/Sub-Auslöser *datawrapper-update* festlegen
+Updater-Funktion deployen und den Pub/Sub-Auslöser *datawrapper-update* festlegen:
 
 ```console
-$ gcloud functions deploy datawrapperUpdater --runtime=nodejs10 --trigger-topic=datawrapper-update
+$ gcloud functions deploy datawrapperUpdater --runtime=nodejs10 --timeout=540s --trigger-topic=datawrapper-update
 ```
 
 Die Abfrage, ob auch eine authentifizierte Ausführung erlaubt werden soll, kann in dem meisten Fällen mit „Nein“ beantwortet werden, da die Funktion vom Google Cloud Scheduler zeitgesteuert ausgelöst werden kann.
