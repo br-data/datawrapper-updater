@@ -12,7 +12,7 @@ let sections = '';
 
 charts.forEach(chart => {
   const iframe = `
-    <iframe title="${chart.title}" aria-label="Interaktives Diagramm" id="datawrapper-chart-${chart.id}" src="https://datawrapper.dwcdn.net/${chart.id}" scrolling="no" frameborder="0" style="width: 100%; border: none;" height="400" width="710"></iframe>`;
+    <iframe title="${chart.title}" aria-label="Interaktives Diagramm" id="datawrapper-chart-${chart.id}" src="https://datawrapper.dwcdn.net/${chart.id}" scrolling="no" frameborder="0" style="width: 100%; border: none;" height="${chart.height || 400}" width="${chart.width || 680}"></iframe>`;
 
   sections += `
   <section id="id-${chart.id}">
