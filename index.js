@@ -7,25 +7,42 @@ exports.datawrapperUpdater = async function (req, res) {
     const { id, description, csvUrl } = chart;
 
     const date = new Date();
-    // const dateOptions = { year: 'numeric', month: 'numeric', day: 'numeric' };
-    // const dateString = date.toLocaleDateString('de-DE', dateOptions);
-    const dateString = `${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()}`;
+    const dateString = `${date.getDate()}.${
+      date.getMonth() + 1
+    }.${date.getFullYear()}`;
 
-    const csvData = await getCsv(csvUrl);
-    const dataStatus = await updateData(id, csvData);
-    const metaStatus = await updateMeta(id, description, dateString);
-    const publishStatus = await publishChart(id);
+    const csvData = await getCsv(id, csvUrl);
 
-    if (dataStatus.error) {
-      console.error(`Error updating data for chart ${id}:`, JSON.stringify(dataStatus));
-    }
+    if (csvData.error) {
+      console.error(csvData.error);
+    } else {
+      const updateDataStatus = await updateData(id, csvData);
 
-    if (metaStatus.error || metaStatus.status === 'error') {
-      console.error(`Error updating meta data for chart ${id}:`, JSON.stringify(metaStatus));
-    }
+      if (updateDataStatus.error) {
+        console.error(
+          `Error updating data for chart ${id}:`,
+          JSON.stringify(updateDataStatus)
+        );
+      }
 
-    if (publishStatus.error || publishStatus.status === 'error') {
-      console.error(`Error publishing chart ${id}:`, JSON.stringify(publishStatus));
+      if (description) {
+        const updateMetaStatus = await updateMeta(id, description, dateString);
+
+        if (updateMetaStatus.error || updateMetaStatus.status === 'error') {
+          console.error(
+            `Error updating meta data for chart ${id}:`,
+            JSON.stringify(updateMetaStatus)
+          );
+        }
+      }
+
+      const publishStatus = await publishChart(id);
+      if (publishStatus.error || publishStatus.status === 'error') {
+        console.error(
+          `Error publishing chart ${id}:`,
+          JSON.stringify(publishStatus)
+        );
+      }
     }
   }
 
@@ -34,45 +51,49 @@ exports.datawrapperUpdater = async function (req, res) {
   }
 };
 
-async function getCsv(csvUrl) {
+async function getCsv(id, csvUrl) {
   return fetch(csvUrl, {
-    method: 'GET'
-  }).then(res => res.text());
+    method: 'GET',
+  })
+    .then((res) => res.text())
+    .catch(() => ({
+      error: `Error fetching data for chart ${id} from ${csvUrl}`,
+    }));
 }
 
 async function updateData(id, csv) {
   return fetch(`https://api.datawrapper.de/v3/charts/${id}/data`, {
     method: 'PUT',
     headers: {
-      'Authorization': `Bearer ${apiKey}`,
-      'Content-Type': 'text/csv'
+      Authorization: `Bearer ${apiKey}`,
+      'Content-Type': 'text/csv',
     },
-    body: csv
-  }).then(res => res.text());
+    body: csv,
+  }).then((res) => res.text());
 }
 
 async function updateMeta(id, description, dateString) {
   return fetch(`https://api.datawrapper.de/v3/charts/${id}`, {
     method: 'PATCH',
     headers: {
-      'Authorization': `Bearer ${apiKey}`,
-      'Content-Type': 'application/json'
+      Authorization: `Bearer ${apiKey}`,
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify({
       metadata: {
         describe: {
-          intro: `${description} (Stand: ${dateString})`
-        }
-      }
-    })
-  }).then(res => res.json());
+          intro: `${description} (Stand: ${dateString})`,
+        },
+      },
+    }),
+  }).then((res) => res.json());
 }
 
 async function publishChart(id) {
   return fetch(`https://api.datawrapper.de/charts/${id}/publish`, {
     method: 'POST',
     headers: {
-      'Authorization': `Bearer ${apiKey}`
-    }
-  }).then(res => res.json());
+      Authorization: `Bearer ${apiKey}`,
+    },
+  }).then((res) => res.json());
 }
