@@ -12,13 +12,16 @@
       "id": "RMP7TA",
       "title": "Bar chart",
       "description": "My favourite bar is a bar chart",
-      "csvUrl": "https://example.com/my-csv-file-2.csv"
+      "csvUrl": "https://example.com/my-csv-file-2.csv",
+      "height": 400
     },
     {
       "id": "A2pSTY",
       "title": "Pie chart",
       "description": "Nobody should make pie charts",
-      "csvUrl": "https://example.com/my-csv-file-3.csv"
+      "csvUrl": "https://example.com/my-csv-file-3.csv",
+      "height": 400,
+      "width": 400
     }
   ]
 }

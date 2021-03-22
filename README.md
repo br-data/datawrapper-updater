@@ -1,6 +1,14 @@
 # Datawrapper-Updater
 
-Datawrapper-Diagramme können mit einem Google Spreadsheet, einer externen CSV-Datei oder einer CSV-API verbunden werden, um daraus Daten zu beziehen. Je nach verwendeter Methode müssen jedoch die Diagramme jedoch neu publiziert werden, wenn sich die Daten geändert haben. Der Datawrapper-Updater übernimmt diese Aufgabe mit einem einfachen Skript, welches zeitgesteuert in der Cloud ausgeführt werden kann.
+Der Datawrapper-Updater aktualisiert in regelmäßigen Abständen die Daten eines oder mehrerer Datawrapper-Diagramme und fügt der Diagrammbeschreibung einen Zeitstempel hinzu. Das entsprechende Skript kann mit wenigen Befehlen als Google Cloud Function deployed und über den Google Cloud Scheduler zeitgesteuert ausgeführt werden. Ein weiteres Skript ermöglicht es, eine kleine Übersichtsseite aller konfigurierten Diagramme zu erstellen.
+
+**Beispielseite:** <https://br-data.github.io/datawrapper-updater/>
+
+## Wann braucht man den Datawrapper-Updater?
+
+Datawrapper-Diagramme können ihre Daten aus einem Google Spreadsheet oder von einer externen CSV-Datei, beziehungsweise einer CSV-fähigen API, beziehen. Wie häufig die Daten aus einer Datenquelle aktualisiert werden, hängt davon ab, wann das Diagramm zuletzt veröffentlicht wurde. Wurde das Diagramm vor weniger als 24 Stunden veröffentlicht, werden die Daten jede Minute aktualisiert. In den ersten 30 Tagen nach der letzten Veröffentlichung werden die Daten dann noch stündlich aktualisiert (siehe [Datawrapper-Academy](https://academy.datawrapper.de/article/60-external-data-sources))
+
+Alternativ können Daten auch direkt, ohne Caching eingebunden werden. Jeder Aufruf des Diagramms erzeugt dann einen Aufruf der (eigenen) Datenschnittstelle. Die direkte Datenanbindung ist manchmal aber nicht realisierbar (Stichwort: HTTPS, CORS) oder man möchte häufigere und längere Update-Intervalle. Hier kommt der Datawrapper-Updater ins Spiel.
 
 ## Verwendung
 
@@ -31,21 +39,30 @@ Damit der Updater die Datawrapper-Diagramme aktualisieren kann, wird ein API-Tok
       "id": "RMP7TA",
       "title": "Bar chart",
       "description": "My favourite bar is a bar chart",
-      "csvUrl": "https://example.com/my-csv-file-2.csv"
+      "csvUrl": "https://example.com/my-csv-file-2.csv",
+      "height": 400
     },
     {
       "id": "A2pSTY",
       "title": "Pie chart",
       "description": "Nobody should make pie charts",
-      "csvUrl": "https://example.com/my-csv-file-3.csv"
+      "csvUrl": "https://example.com/my-csv-file-3.csv",
+      "width": 400,
+      "height": 400
     }
   ]
 }
 ```
 
-Die Beschreibung `description` wird unterhalb des Titels angezeigt und jeweils noch mit dem Datum der letzten Aktualisierung (Stand: 30.04.2020) versehen. Der Titel `title` wird nicht benötigt, hilft aber dabei einzelne Diagramme wiederzufinden.
+Welche Charts aktualisiert werden sollen, wird über die Datawrapper-ID, zum Beispiel `QW2ItS`, festgelegt.
 
-**Hinweis:** Momentan werden nur CSV-Dateien und APIs unterstützt, welche Daten im CSV-Format zurückgeben. Das direkte Einbinden von Google Spreadsheets wird noch nicht unterstützt. Allerdings kann man relativ einfach an den CSV-Link hinter einem Google Spreadsheet herankommen, in dem man am Ende einer Spreadsheet-URL `edit#gid=281917130` durch `export?format=csv#gid=281917130` ersetzen. Der Parameter `gid` steht dabei für das aktuelle Arbeitsblatt.
+Der Titel `title` wird nicht benötigt, hilft aber dabei einzelne Diagramme wiederzufinden.
+
+Die Beschreibung `description` wird unterhalb des Titels angezeigt und jeweils noch mit dem Datum der letzten Aktualisierung (Stand: 30.04.2020) versehen. Wird keine `description` angegeben oder ist diese `false`, wird kein Zeitstempel hinzugefügt, um zu verhindern, dass die Originalbeschreibung des Diagramms überschrieben wird. Möchte man einen Zeitstempel und keine Beschreibung, reicht es einen leeren String `""` als Wert anzugeben.
+
+Das Feld `csvURl` gibt an, woher das Diagramm die Daten bekommen soll. Momentan werden nur CSV-Dateien und APIs unterstützt, welche Daten im CSV-Format zurückgeben. Das direkte Einbinden von Google Spreadsheets wird noch nicht unterstützt. Allerdings kann man relativ einfach an den CSV-Link hinter einem Google Spreadsheet herankommen, in dem man am Ende einer Spreadsheet-URL `edit#gid=281917130` durch `export?format=csv#gid=281917130` ersetzen. Der Parameter `gid` steht dabei für das aktuelle Arbeitsblatt.
+
+Optional können für jedes Diagramm noch eine Breite `width` und Höhe `height` angegeben werden. Diese Angaben werden jedoch nur von der generierte Übersichtsseite genutzt, um das Diagramm sinnvoll darzustellen und einen Embed-Code (iFrame) zu erzeugen. Die Standardeinstellungen sind 680 Pixel für die Breite sind und 400 Pixel für die Höhe.
 
 ## Übersichtsseite
 
