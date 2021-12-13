@@ -115,7 +115,7 @@ $ gcloud pubsub topics create datawrapper-update
 Updater-Funktion deployen und den Pub/Sub-Auslöser *datawrapper-update* festlegen:
 
 ```console
-$ gcloud functions deploy datawrapperUpdater --runtime=nodejs10 --timeout=540s --trigger-topic=datawrapper-update
+$ gcloud functions deploy datawrapperUpdater --runtime=nodejs16 --timeout=540s --trigger-topic=datawrapper-update
 ```
 
 Die Abfrage, ob auch eine authentifizierte Ausführung erlaubt werden soll, kann in dem meisten Fällen mit „Nein“ beantwortet werden, da die Funktion vom Google Cloud Scheduler zeitgesteuert ausgelöst werden kann.
@@ -133,7 +133,7 @@ $ gcloud alpha functions add-iam-policy-binding datawrapperUpdater --member=allU
 Werden in einem Durchlauf nicht alle Charts aktualisiert, kann eine Erhöhung des Timeouts auf das Maximum von 540 Sekunden (9 Minuten) Abhilfe schaffen. Normalerweise wird eine Funktion nach 60 Sekunden beendet.
 
 ```console
-$ gcloud functions deploy datawrapperUpdater --runtime=nodejs10 --timeout=540s --trigger-topic=datawrapper-update
+$ gcloud functions deploy datawrapperUpdater --runtime=nodejs16 --timeout=540s --trigger-topic=datawrapper-update
 ```
 
 ### Updates zeitgesteuert starten
