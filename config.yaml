@@ -1,0 +1,14 @@
+isEnabled: true
+image:
+  preset: node
+build:
+  command: npm install
+run:
+  command: npm start
+  envs:
+    - name: DATAWRAPPER_API_KEY
+      value: 'sm://{{.projectId}}/datawrapper-api-key'
+settings:
+  type: cronjob
+  schedule: 0 4,15 * * *
+  concurrencyPolicy: Replace
