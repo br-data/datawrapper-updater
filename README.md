@@ -30,7 +30,7 @@ Damit der Updater die Datawrapper-Diagramme aktualisieren kann, wird ein API-Tok
 DATAWRAPPER_API_KEY=<TOKEN>
 ```
 
-Die `.env`-Datei wird mithilfe der [dotenv](https://github.com/motdotla/dotenv)-Library geladen. Für das Live-De
+Alle Umgebungsvariablen werden mit Hilfe der [dotenv](https://github.com/motdotla/dotenv)-Library aus der `.env`-Datei geladen. Für das Live-Deployment hingegen werden die Umgebungsvariablen automatisch beim Bauen der Anwendung aus dem Secret Manager injiziert (siehe [Deployment](#deployment)).
 
 Zum Anlegen der Konfiguration empfiehlt es sich den Inhalt der Datei `config.template.json` in eine neue Datei `config.json` zu kopieren.
 
