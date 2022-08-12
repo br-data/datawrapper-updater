@@ -1,0 +1,226 @@
+[
+  {
+    "id": "aY5t8",
+    "title": "Corona-Inzidenz in Deutschland (Symbolkarte)",
+    "description": "Gemeldete Corona-Neuinfektionen in Deutschland pro 100.000 Einwohner in den vergangenen 7 Tagen",
+    "csvUrl": "https://storage.googleapis.com/brdata-public-data/corona-data-workers/landkreise_deutschland.csv",
+    "height": 700
+  },
+  {
+    "id": "A84EA",
+    "title": "Corona-Fälle in Deutschland",
+    "description": "Entwicklung der gemeldeten Fallzahlen (logarithmisch)",
+    "csvUrl": "https://corona-deutschland-api.interaktiv.br.de/query?startDate=2020-02-25&dateField=Refdatum&filetype=csv",
+    "height": 400
+  },
+  {
+    "id": "pKz1y",
+    "title": "Corona-Fälle in Deutschland",
+    "description": "Entwicklung der gemeldeten Fallzahlen",
+    "csvUrl": "https://corona-deutschland-api.interaktiv.br.de/query?startDate=2020-02-25&dateField=Refdatum&filetype=csv",
+    "height": 400
+  },
+  {
+    "id": "FO8IT",
+    "title": "Wie viele neue Fälle gibt es in Deutschland täglich?",
+    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel",
+    "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-de?sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
+    "height": 400
+  },
+  {
+    "id": "XiHIr",
+    "title": "Corona-Inzidenz nach Altergruppen in Deutschland",
+    "description": "Gemeldete Corona-Neuinfektionen pro 100.000 Einwohner in den jeweils vergangenen 7 Tagen nach Alter",
+    "csvUrl": "https://storage.googleapis.com/brdata-public-data/corona-data-workers/altersverteilung.csv",
+    "height": 350
+  },
+  {
+    "id": "jrkvL",
+    "title": "Intensivpatienten in Deutschland",
+    "description": "Zahl der gemeldeten Corona-Fälle in intensivmedizinischer Behandlung",
+    "csvUrl": "https://corona-api.interaktiv.br.de/query/intensivpatienten-de?sort=datum&fieldList=datum,anzahlIntensivpatienten",
+    "height": 400
+  },
+  {
+    "id": "NG2nH",
+    "title": "Anteil der Corona-Infizierten an der Bevölkerung",
+    "description": "",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1CcexpVxfgBnQdOKV_KXOzptNDuqB6E0Z6B9RFLq2dp4/export?format=csv&gid=590463298",
+    "height": 200
+  },
+  {
+    "id": "7LLPz",
+    "title": "Impffortschritt in Bayern und Deutschland",
+    "description": "Bevölkerung nach Zahl der verabreichten Impfdosen",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/14PzAA3k1cm_Y6jOPRIFHlBXyqDFnAsGLJHlX4yRAFAw/export?format=csv&id=14PzAA3k1cm_Y6jOPRIFHlBXyqDFnAsGLJHlX4yRAFAw&gid=1140721593",
+    "height": 200
+  },
+  {
+    "id": "tavHE",
+    "title": "Corona-Impfung in Deutschland und Bayern",
+    "description": "Wählen Sie aus: Aktueller <a target='_self' href=' https://datawrapper.dwcdn.net/tavHE' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Stand</a>&nbsp;|&nbsp;Entwicklung der Zahl der Geimpften in <a target='_self' href='https://datawrapper.dwcdn.net/IhAG6' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Bayern</a> und <a target='_self' href='https://datawrapper.dwcdn.net/8CyAL' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Deutschland</a>",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1yahYgba16ujYg2z1VSKSGprsUdzbQUXWNAFZodOYZfU/export?format=csv&id=1yahYgba16ujYg2z1VSKSGprsUdzbQUXWNAFZodOYZfU&gid=85813540",
+    "height": 300
+  },
+  {
+    "id": "8CyAL",
+    "title": "Entwicklung der Corona-Impfungen in Deutschland",
+    "description": "<p>Wählen Sie aus: Aktueller <a target='_self' href='https://datawrapper.dwcdn.net/tavHE' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Stand</a>&nbsp;|&nbsp;Entwicklung der Zahl der Geimpften in <a target='_self' href='https://datawrapper.dwcdn.net/IhAG6' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Bayern</a> und <a target='_self' href='https://datawrapper.dwcdn.net/8CyAL' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Deutschland</a></p>",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1yahYgba16ujYg2z1VSKSGprsUdzbQUXWNAFZodOYZfU/export?format=csv&id=1yahYgba16ujYg2z1VSKSGprsUdzbQUXWNAFZodOYZfU&gid=2001954630",
+    "height": 400
+  },
+  {
+    "id": "IhAG6",
+    "title": "Entwicklung der Corona-Impfungen in Bayern",
+    "description": "<p>Wählen Sie aus: Aktueller <a target='_self' href='https://datawrapper.dwcdn.net/tavHE' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Stand</a>&nbsp;|&nbsp;Entwicklung der Zahl der Geimpften in <a target='_self' href='https://datawrapper.dwcdn.net/IhAG6' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Bayern</a> und <a target='_self' href='https://datawrapper.dwcdn.net/8CyAL' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Deutschland</a></p>",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1yahYgba16ujYg2z1VSKSGprsUdzbQUXWNAFZodOYZfU/export?format=csv&id=1yahYgba16ujYg2z1VSKSGprsUdzbQUXWNAFZodOYZfU&gid=1959918300",
+    "height": 400
+  },
+  {
+    "id": "QKKta",
+    "title": "Verteilung der Impfdosen in Bayern",
+    "description": "Anteil der verabreichten Impfdosen nach dem Grund der Impfung",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1yahYgba16ujYg2z1VSKSGprsUdzbQUXWNAFZodOYZfU/export?format=csv&gid=1046981025",
+    "height": 600
+  },
+  {
+    "id": "xB5Pf",
+    "title": "Corona-Inzidenz in Bayern (Tabelle)",
+    "description": "Gemeldete Corona-Fälle, 7-Tage-Inzidenz und gemeldete Todesfälle in den bayerischen Landkreisen",
+    "csvUrl": "https://storage.googleapis.com/brdata-public-data/corona-data-workers/landkreiskarte_bayern.csv",
+    "height": 400
+  },
+  {
+    "id": "rf5H5",
+    "title": "Corona-Inzidenz in Bayern (Symbolkarte)",
+    "description": "Größe und Farbe der Punkte zeigen die gemeldeten Corona-Neuinfektionen in Bayern pro 100.000 Einwohnern in den vergangenen 7 Tagen.",
+    "csvUrl": "https://storage.googleapis.com/brdata-public-data/corona-data-workers/landkreiskarte_bayern.csv",
+    "height": 700
+  },
+  {
+    "id": "eij5b",
+    "title": "Corona-Fälle in Bayern",
+    "description": "Entwicklung der gemeldeten Fallzahlen",
+    "csvUrl": "https://corona-deutschland-api.interaktiv.br.de/query?startDate=2020-02-25&dateField=Refdatum&bundesland=Bayern&filetype=csv",
+    "height": 400
+  },
+  {
+    "id": "4zOBp",
+    "title": "Wie viele neue Fälle gibt es in Bayern täglich?",
+    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel",
+    "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-bl?filter=bundesland==Bayern&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
+    "height": 400
+  },
+  {
+    "id": "NWcZ8",
+    "title": "Corona-Inzidenz nach Altersgruppen in Bayern",
+    "description": "Gemeldete Corona-Neuinfektionen pro 100.000 Einwohner in den jeweils vergangenen 7 Tagen nach Alter",
+    "csvUrl": "https://storage.googleapis.com/brdata-public-data/corona-data-workers/altersverteilung_bayern.csv",
+    "height": 350
+  },
+  {
+    "id": "MCha4",
+    "title": "Intensivpatienten in Bayern",
+    "description": "Zahl der gemeldeten Corona-Fälle in intensivmedizinischer Behandlung",
+    "csvUrl": "https://corona-api.interaktiv.br.de/query/intensivpatienten-bl?filter=bundesland==Bayern&sort=datum&fieldList=datum,anzahlIntensivpatienten",
+    "height": 400
+  },
+  {
+    "id": "FYgL4",
+    "title": "Wie viele Corona-Patienten werden in Bayern hospitalisiert?",
+    "description": "Hospitalisierte Covid-19-Fälle in Bayern pro 100.000 Einwohner in den vergangenen 7 Tagen nach Meldedatum der Erkrankung",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1NbPIWxPTSWuJzAs4Zf120t-Y_X-9UA8BlKeqVu-I1A4/export?format=csv&id=1NbPIWxPTSWuJzAs4Zf120t-Y_X-9UA8BlKeqVu-I1A4&gid=1893489882",
+    "height": 400
+  },
+  {
+    "id": "6K6b3",
+    "title": "Wie viele Corona-Patienten werden in Deutschland hospitalisiert?",
+    "description": "Hospitalisierte Covid-19-Fälle in Deutschland pro 100.000 Einwohner in den vergangenen 7 Tagen nach Meldedatum der Erkrankung",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1NbPIWxPTSWuJzAs4Zf120t-Y_X-9UA8BlKeqVu-I1A4/export?format=csv&id=1NbPIWxPTSWuJzAs4Zf120t-Y_X-9UA8BlKeqVu-I1A4&gid=1175154031",
+    "height": 400
+  },
+  {
+    "id": "qsvOD",
+    "title": "Corona-Fälle in Franken",
+    "description": "Entwicklung der gemeldeten Fälle pro Tag",
+    "csvUrl": "https://corona-deutschland-api.interaktiv.br.de/query?startDate=2020-02-25&dateField=Refdatum&group=Regierungsbezirk&bundesland=Bayern&regierungsbezirk=Mittelfranken,Oberfranken,Unterfranken&filetype=csv",
+    "height": 400
+  },
+  {
+    "id": "YJEKE",
+    "title": "Neue Corona-Fälle in Mittelfranken",
+    "description": "Bestätigte Neuinfektionen nach Meldedatum mit 7-Tage Mittel. Wählen Sie Ihren Regierungsbezirk aus: <br><a target='_self' href='https://datawrapper.dwcdn.net/yhhUL' style='display:inline-block; background:#0b9fd8; margin:5px 0; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Unterfranken</a>&nbsp;<a target='_self' href='https://datawrapper.dwcdn.net/YJEKE' style='display:inline-block; background:#0b9fd8; margin:5px 0; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Mittelfranken</a>&nbsp;<a target='_self' href='https://datawrapper.dwcdn.net/1gwLV' style='display:inline-block; background:#0b9fd8; margin:5px 0; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Oberfranken</a>",
+    "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-rb?filter=regierungsbezirk==Mittelfranken&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
+    "height": 400
+  },
+  {
+    "id": "yhhUL",
+    "title": "Neue Corona-Fälle in Unterfranken",
+    "description": "Bestätigte Neuinfektionen nach Meldedatum mit 7-Tage Mittel. Wählen Sie Ihren Regierungsbezirk aus: <br><a target='_self' href='https://datawrapper.dwcdn.net/yhhUL' style='display:inline-block; background:#0b9fd8; margin:5px 0; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Unterfranken</a>&nbsp;<a target='_self' href='https://datawrapper.dwcdn.net/YJEKE' style='display:inline-block; background:#0b9fd8; margin:5px 0; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Mittelfranken</a>&nbsp;<a target='_self' href='https://datawrapper.dwcdn.net/1gwLV' style='display:inline-block; background:#0b9fd8; margin:5px 0; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Oberfranken</a>",
+    "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-rb?filter=regierungsbezirk==Unterfranken&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
+    "height": 400
+  },
+  {
+    "id": "1gwLV",
+    "title": "Neue Corona-Fälle in Oberfranken",
+    "description": "Bestätigte Neuinfektionen nach Meldedatum mit 7-Tage Mittel. Wählen Sie Ihren Regierungsbezirk aus: <br><a target='_self' href='https://datawrapper.dwcdn.net/yhhUL' style='display:inline-block; background:#0b9fd8; margin:5px 0; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Unterfranken</a>&nbsp;<a target='_self' href='https://datawrapper.dwcdn.net/YJEKE' style='display:inline-block; background:#0b9fd8; margin:5px 0; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Mittelfranken</a>&nbsp;<a target='_self' href='https://datawrapper.dwcdn.net/1gwLV' style='display:inline-block; background:#0b9fd8; margin:5px 0; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Oberfranken</a>",
+    "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-rb?filter=regierungsbezirk==Oberfranken&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
+    "height": 400
+  },
+  {
+    "id": "Hgr9p",
+    "title": "Corona-Fälle in Oberbayern",
+    "description": "Entwicklung der gemeldeten Fälle pro Tag",
+    "csvUrl": "https://corona-deutschland-api.interaktiv.br.de/query?startDate=2020-02-25&dateField=Refdatum&group=Regierungsbezirk&bundesland=Bayern&regierungsbezirk=Oberbayern&filetype=csv",
+    "height": 400
+  },
+  {
+    "id": "3oluk",
+    "title": "Neue Corona-Fälle in Oberbayern",
+    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel",
+    "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-rb?filter=regierungsbezirk==Oberbayern&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
+    "height": 400
+  },
+  {
+    "id": "e2UmU",
+    "title": "Corona-Fälle in Niederbayern",
+    "description": "Entwicklung der gemeldeten Fälle pro Tag",
+    "csvUrl": "https://corona-deutschland-api.interaktiv.br.de/query?startDate=2020-02-25&dateField=Refdatum&group=Regierungsbezirk&bundesland=Bayern&regierungsbezirk=Niederbayern&filetype=csv",
+    "height": 400
+  },
+  {
+    "id": "hWw8L",
+    "title": "Neue Corona-Fälle in Niederbayern",
+    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel",
+    "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-rb?filter=regierungsbezirk==Niederbayern&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
+    "height": 400
+  },
+  {
+    "id": "5I8vc",
+    "title": "Corona-Fälle in Oberpfalz",
+    "description": "Entwicklung der gemeldeten Fälle pro Tag",
+    "csvUrl": "https://corona-deutschland-api.interaktiv.br.de/query?startDate=2020-02-25&dateField=Refdatum&group=Regierungsbezirk&bundesland=Bayern&regierungsbezirk=Oberpfalz&filetype=csv",
+    "height": 400
+  },
+  {
+    "id": "3aGyL",
+    "title": "Neue Corona-Fälle in Oberpfalz",
+    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel",
+    "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-rb?filter=regierungsbezirk==Oberpfalz&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
+    "height": 400
+  },
+  {
+    "id": "MKXT0",
+    "title": "Corona-Fälle in Schwaben",
+    "description": "Entwicklung der gemeldeten Fälle pro Tag",
+    "csvUrl": "https://corona-deutschland-api.interaktiv.br.de/query?startDate=2020-02-25&dateField=Refdatum&group=Regierungsbezirk&bundesland=Bayern&regierungsbezirk=Schwaben&filetype=csv",
+    "height": 400
+  },
+  {
+    "id": "QTX31",
+    "title": "Neue Corona-Fälle in Schwaben",
+    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel",
+    "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-rb?filter=regierungsbezirk==Schwaben&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
+    "height": 400
+  }
+]

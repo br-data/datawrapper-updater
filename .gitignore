@@ -1,6 +1,5 @@
 # Project
-config.json
-config.backup.json
+.env
 template.html
 
 # Node
