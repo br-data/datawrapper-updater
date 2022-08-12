@@ -4,7 +4,7 @@ Der Datawrapper-Updater aktualisiert in regelmäßigen Abständen die Daten eine
 
 **Übersicht der Diagramme:** <https://br-data.github.io/datawrapper-updater/>
 
-*⚠️ Eine alte Version des Datawrapper-Updates, welche als Google Cloud Function ausgeführt werden kann, befindet sich im Branch [function](https://github.com/br-data/datawrapper-updater/tree/function), wird aber nicht weiterentwickelt.*
+*⚠️ Eine alte Version des Datawrapper-Updaters, welche als Google Cloud Function ausgeführt werden kann, befindet sich im Branch [function](https://github.com/br-data/datawrapper-updater/tree/function), wird aber nicht weiterentwickelt.*
 
 ## Wann braucht man den Datawrapper-Updater?
 
