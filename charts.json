@@ -3,7 +3,7 @@
     "id": "aY5t8",
     "title": "Corona-Inzidenz in Deutschland (Symbolkarte)",
     "description": "Gemeldete Corona-Neuinfektionen in Deutschland pro 100.000 Einwohner in den vergangenen 7 Tagen",
-    "csvUrl": "https://storage.googleapis.com/brdata-public-data/corona-data-workers/landkreise_deutschland.csv",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1ddDQ54fzBJ3rP7gBgRXvrd988bPfc7qrElG_OdFjSWU/export?format=csv&gid=0",
     "height": 700
   },
   {
@@ -87,14 +87,14 @@
     "id": "xB5Pf",
     "title": "Corona-Inzidenz in Bayern (Tabelle)",
     "description": "Gemeldete Corona-Fälle, 7-Tage-Inzidenz und gemeldete Todesfälle in den bayerischen Landkreisen",
-    "csvUrl": "https://storage.googleapis.com/brdata-public-data/corona-data-workers/landkreiskarte_bayern.csv",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/107eb4TmJrXeVa8b2jmRDXrP22eP8PBsvEeDYvO8YmYw/export?format=csv&gid=0",
     "height": 400
   },
   {
     "id": "rf5H5",
     "title": "Corona-Inzidenz in Bayern (Symbolkarte)",
     "description": "Größe und Farbe der Punkte zeigen die gemeldeten Corona-Neuinfektionen in Bayern pro 100.000 Einwohnern in den vergangenen 7 Tagen.",
-    "csvUrl": "https://storage.googleapis.com/brdata-public-data/corona-data-workers/landkreiskarte_bayern.csv",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/107eb4TmJrXeVa8b2jmRDXrP22eP8PBsvEeDYvO8YmYw/export?format=csv&gid=0",
     "height": 700
   },
   {
