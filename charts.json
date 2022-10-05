@@ -42,13 +42,6 @@
     "height": 400
   },
   {
-    "id": "NG2nH",
-    "title": "Anteil der Corona-Infizierten an der Bevölkerung",
-    "description": "",
-    "csvUrl": "https://docs.google.com/spreadsheets/d/1CcexpVxfgBnQdOKV_KXOzptNDuqB6E0Z6B9RFLq2dp4/export?format=csv&gid=590463298",
-    "height": 200
-  },
-  {
     "id": "7LLPz",
     "title": "Impffortschritt in Bayern und Deutschland",
     "description": "Bevölkerung nach Zahl der verabreichten Impfdosen",
@@ -58,30 +51,9 @@
   {
     "id": "tavHE",
     "title": "Corona-Impfung in Deutschland und Bayern",
-    "description": "Wählen Sie aus: Aktueller <a target='_self' href=' https://datawrapper.dwcdn.net/tavHE' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Stand</a>&nbsp;|&nbsp;Entwicklung der Zahl der Geimpften in <a target='_self' href='https://datawrapper.dwcdn.net/IhAG6' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Bayern</a> und <a target='_self' href='https://datawrapper.dwcdn.net/8CyAL' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Deutschland</a>",
+    "description": "Anteil der Bevölkerung in Prozent, der die entsprechende Anzahl an Impfungen gegen das Coronavirus erhalten hat.</a>",
     "csvUrl": "https://docs.google.com/spreadsheets/d/1yahYgba16ujYg2z1VSKSGprsUdzbQUXWNAFZodOYZfU/export?format=csv&id=1yahYgba16ujYg2z1VSKSGprsUdzbQUXWNAFZodOYZfU&gid=85813540",
     "height": 300
-  },
-  {
-    "id": "8CyAL",
-    "title": "Entwicklung der Corona-Impfungen in Deutschland",
-    "description": "<p>Wählen Sie aus: Aktueller <a target='_self' href='https://datawrapper.dwcdn.net/tavHE' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Stand</a>&nbsp;|&nbsp;Entwicklung der Zahl der Geimpften in <a target='_self' href='https://datawrapper.dwcdn.net/IhAG6' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Bayern</a> und <a target='_self' href='https://datawrapper.dwcdn.net/8CyAL' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Deutschland</a></p>",
-    "csvUrl": "https://docs.google.com/spreadsheets/d/1yahYgba16ujYg2z1VSKSGprsUdzbQUXWNAFZodOYZfU/export?format=csv&id=1yahYgba16ujYg2z1VSKSGprsUdzbQUXWNAFZodOYZfU&gid=2001954630",
-    "height": 400
-  },
-  {
-    "id": "IhAG6",
-    "title": "Entwicklung der Corona-Impfungen in Bayern",
-    "description": "<p>Wählen Sie aus: Aktueller <a target='_self' href='https://datawrapper.dwcdn.net/tavHE' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Stand</a>&nbsp;|&nbsp;Entwicklung der Zahl der Geimpften in <a target='_self' href='https://datawrapper.dwcdn.net/IhAG6' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Bayern</a> und <a target='_self' href='https://datawrapper.dwcdn.net/8CyAL' style='background:#0b9fd8; padding:1px 6px; border-radius:5px; color:#ffffff; cursor:pointer;'>Deutschland</a></p>",
-    "csvUrl": "https://docs.google.com/spreadsheets/d/1yahYgba16ujYg2z1VSKSGprsUdzbQUXWNAFZodOYZfU/export?format=csv&id=1yahYgba16ujYg2z1VSKSGprsUdzbQUXWNAFZodOYZfU&gid=1959918300",
-    "height": 400
-  },
-  {
-    "id": "QKKta",
-    "title": "Verteilung der Impfdosen in Bayern",
-    "description": "Anteil der verabreichten Impfdosen nach dem Grund der Impfung",
-    "csvUrl": "https://docs.google.com/spreadsheets/d/1yahYgba16ujYg2z1VSKSGprsUdzbQUXWNAFZodOYZfU/export?format=csv&gid=1046981025",
-    "height": 600
   },
   {
     "id": "xB5Pf",
@@ -168,24 +140,10 @@
     "height": 400
   },
   {
-    "id": "Hgr9p",
-    "title": "Corona-Fälle in Oberbayern",
-    "description": "Entwicklung der gemeldeten Fälle pro Tag",
-    "csvUrl": "https://corona-deutschland-api.interaktiv.br.de/query?startDate=2020-02-25&dateField=Refdatum&group=Regierungsbezirk&bundesland=Bayern&regierungsbezirk=Oberbayern&filetype=csv",
-    "height": 400
-  },
-  {
     "id": "3oluk",
     "title": "Neue Corona-Fälle in Oberbayern",
     "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel",
     "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-rb?filter=regierungsbezirk==Oberbayern&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
-    "height": 400
-  },
-  {
-    "id": "e2UmU",
-    "title": "Corona-Fälle in Niederbayern",
-    "description": "Entwicklung der gemeldeten Fälle pro Tag",
-    "csvUrl": "https://corona-deutschland-api.interaktiv.br.de/query?startDate=2020-02-25&dateField=Refdatum&group=Regierungsbezirk&bundesland=Bayern&regierungsbezirk=Niederbayern&filetype=csv",
     "height": 400
   },
   {
@@ -196,24 +154,10 @@
     "height": 400
   },
   {
-    "id": "5I8vc",
-    "title": "Corona-Fälle in Oberpfalz",
-    "description": "Entwicklung der gemeldeten Fälle pro Tag",
-    "csvUrl": "https://corona-deutschland-api.interaktiv.br.de/query?startDate=2020-02-25&dateField=Refdatum&group=Regierungsbezirk&bundesland=Bayern&regierungsbezirk=Oberpfalz&filetype=csv",
-    "height": 400
-  },
-  {
     "id": "3aGyL",
     "title": "Neue Corona-Fälle in Oberpfalz",
     "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel",
     "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-rb?filter=regierungsbezirk==Oberpfalz&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
-    "height": 400
-  },
-  {
-    "id": "MKXT0",
-    "title": "Corona-Fälle in Schwaben",
-    "description": "Entwicklung der gemeldeten Fälle pro Tag",
-    "csvUrl": "https://corona-deutschland-api.interaktiv.br.de/query?startDate=2020-02-25&dateField=Refdatum&group=Regierungsbezirk&bundesland=Bayern&regierungsbezirk=Schwaben&filetype=csv",
     "height": 400
   },
   {
