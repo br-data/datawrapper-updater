@@ -7,20 +7,6 @@
     "height": 700
   },
   {
-    "id": "A84EA",
-    "title": "Corona-Fälle in Deutschland",
-    "description": "Entwicklung der gemeldeten Fallzahlen (logarithmisch)",
-    "csvUrl": "https://corona-deutschland-api.interaktiv.br.de/query?startDate=2020-02-25&dateField=Refdatum&filetype=csv",
-    "height": 400
-  },
-  {
-    "id": "pKz1y",
-    "title": "Corona-Fälle in Deutschland",
-    "description": "Entwicklung der gemeldeten Fallzahlen",
-    "csvUrl": "https://corona-deutschland-api.interaktiv.br.de/query?startDate=2020-02-25&dateField=Refdatum&filetype=csv",
-    "height": 400
-  },
-  {
     "id": "FO8IT",
     "title": "Wie viele neue Fälle gibt es in Deutschland täglich?",
     "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel",
@@ -68,13 +54,6 @@
     "description": "Größe und Farbe der Punkte zeigen die gemeldeten Corona-Neuinfektionen in Bayern pro 100.000 Einwohnern in den vergangenen 7 Tagen.",
     "csvUrl": "https://storage.googleapis.com/brdata-public-data/corona-data-workers/landkreiskarte_bayern.csv",
     "height": 700
-  },
-  {
-    "id": "eij5b",
-    "title": "Corona-Fälle in Bayern",
-    "description": "Entwicklung der gemeldeten Fallzahlen",
-    "csvUrl": "https://corona-deutschland-api.interaktiv.br.de/query?startDate=2020-02-25&dateField=Refdatum&bundesland=Bayern&filetype=csv",
-    "height": 400
   },
   {
     "id": "4zOBp",
@@ -154,7 +133,7 @@
     "height": 400
   },
   {
-    "id": "3aGyL",
+    "id": "9zsMg",
     "title": "Neue Corona-Fälle in Oberpfalz",
     "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel",
     "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-rb?filter=regierungsbezirk==Oberpfalz&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
@@ -166,5 +145,45 @@
     "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel",
     "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-rb?filter=regierungsbezirk==Schwaben&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
     "height": 400
+  },
+  {
+    "id": "xstrW",
+    "title": "So viel kostet 1 Liter Super Benzin",
+    "description": "Mittlerer Preis aller gemeldeten Tankstellen in Euro.",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1k8JquYj7xCHlhAzh9HzQhHCJM0V_QNNEgckNCqHL-dc/export?format=csv&id=1k8JquYj7xCHlhAzh9HzQhHCJM0V_QNNEgckNCqHL-dc",
+    "height": 500,
+    "category": "energy"
+  },
+  {
+    "id": "bKfbh",
+    "title": "So viel kostet 1 Liter Diesel",
+    "description": "Mittlerer Preis aller gemeldeten Tankstellen in Euro.",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1k8JquYj7xCHlhAzh9HzQhHCJM0V_QNNEgckNCqHL-dc/export?format=csv&id=1k8JquYj7xCHlhAzh9HzQhHCJM0V_QNNEgckNCqHL-dc",
+    "height": 500,
+    "category": "energy"
+  },
+  {
+    "id": "03HXT",
+    "title": "So viel kostet 1 Liter E10",
+    "description": "Mittlerer Preis aller gemeldeten Tankstellen in Euro.",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1k8JquYj7xCHlhAzh9HzQhHCJM0V_QNNEgckNCqHL-dc/export?format=csv&id=1k8JquYj7xCHlhAzh9HzQhHCJM0V_QNNEgckNCqHL-dc&gid=123142849",
+    "height": 500,
+    "category": "energy"
+  },
+  {
+    "id": "sWEPp",
+    "title": "So viel kostet 1 kWh Gas",
+    "description": "Preis für Neukunden bei Vertragsabschluss am jeweiligen Tag in Euro",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1-vDcuOO4b0IX-rogW0IyMkztRIsYkXchOj7QQFmqV64/export?format=csv&id=1-vDcuOO4b0IX-rogW0IyMkztRIsYkXchOj7QQFmqV64&gid=2096629923",
+    "height": 500,
+    "category": "energy"
+  },
+  {
+    "id": "3obk4",
+    "title": "So viel kostet 1 kWh Strom",
+    "description": "Preis für Neukunden bei Vertragsabschluss am jeweiligen Tag in Euro",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1LHMO8Ec05hw2O9rDeQlnNBtwqh-MJuHJZIOVqHjAi9Q/export?format=csv&id=1LHMO8Ec05hw2O9rDeQlnNBtwqh-MJuHJZIOVqHjAi9Q&gid=2096629923",
+    "height": 500,
+    "category": "energy"
   }
 ]
