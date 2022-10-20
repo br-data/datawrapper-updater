@@ -22,7 +22,6 @@
     "node-fetch": "^2.6.7"
   },
   "devDependencies": {
-    "@google-cloud/functions-framework": "^1.7.1",
     "eslint": "^7.19.0",
     "npm-watch": "^0.7.0"
   }
