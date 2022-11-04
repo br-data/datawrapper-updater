@@ -83,4 +83,3 @@ Dabei wir ein iFrame zur Vorschau des jeweiligen Diagrams und der jeweilige Embe
 ## Deployment
 
 Die Anwendung wird automatisch mit Github Action gebaut und über die Google Cloud ausgeliefert. Jeder Commit auf den `develop` oder `live`-Branch des Repositories startet einen neuen Build. Das Deployment und der Cron Job wird in der Datei `config.yaml` konfiguriert. Die Konfiguration für den Github-Workflow in `.github/workflow` sollte nicht angefasst werden. Für mehr Informationen, siehe [br-data/cloud-deploy-template](https://github.com/br-data/cloud-deploy-template).
-
