@@ -2,28 +2,28 @@
   {
     "id": "aY5t8",
     "title": "Corona-Inzidenz in Deutschland (Symbolkarte)",
-    "description": "Gemeldete Corona-Neuinfektionen in Deutschland pro 100.000 Einwohner in den vergangenen 7 Tagen <br>Klicken Sie hier, um die Karte für <a target='_self href=https://datawrapper.dwcdn.net/rf5H5' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Bayern</a> zu betrachten.<br>",
+    "description": "Gemeldete Corona-Neuinfektionen in Deutschland pro 100.000 Einwohner in den vergangenen 7 Tagen. Klicken Sie hier, um die Karte für <a target='_self href=https://datawrapper.dwcdn.net/rf5H5' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Bayern</a> zu betrachten.<br>",
     "csvUrl": "https://docs.google.com/spreadsheets/d/1ddDQ54fzBJ3rP7gBgRXvrd988bPfc7qrElG_OdFjSWU/export?format=csv&gid=0",
     "height": 700
   },
   {
     "id": "FO8IT",
     "title": "Wie viele neue Fälle gibt es in Deutschland täglich?",
-    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel <br>Klicken Sie hier, um die Kurve für <a target='_self href=https://datawrapper.dwcdn.net/4zOBp' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Bayern</a> zu betrachten.<br>",
+    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel. Klicken Sie hier, um die Kurve für <a target='_self href=https://datawrapper.dwcdn.net/4zOBp' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Bayern</a> zu betrachten.<br>",
     "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-de?sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
     "height": 400
   },
   {
     "id": "XiHIr",
     "title": "Corona-Inzidenz nach Altergruppen in Deutschland",
-    "description": "Gemeldete Corona-Neuinfektionen pro 100.000 Einwohner in den jeweils vergangenen 7 Tagen nach Alter <br>Klicken Sie hier, um die Übersicht für <a target='_self href=https://datawrapper.dwcdn.net/NWcZ8' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Bayern</a> zu betrachten.<br>",
+    "description": "Gemeldete Corona-Neuinfektionen pro 100.000 Einwohner in den jeweils vergangenen 7 Tagen nach Alter. Klicken Sie hier, um die Übersicht für <a target='_self href=https://datawrapper.dwcdn.net/NWcZ8' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Bayern</a> zu betrachten.<br>",
     "csvUrl": "https://storage.googleapis.com/brdata-public-data/corona-data-workers/altersverteilung.csv",
     "height": 350
   },
   {
     "id": "jrkvL",
     "title": "Intensivpatienten in Deutschland",
-    "description": "Zahl der gemeldeten Corona-Fälle in intensivmedizinischer Behandlung in Deutschland <br>Klicken Sie hier, um die Kurve für <a target='_self href=https://datawrapper.dwcdn.net/MCha4' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Bayern</a> zu betrachten.<br>",
+    "description": "Zahl der gemeldeten Corona-Fälle in intensivmedizinischer Behandlung in Deutschland. Klicken Sie hier, um die Kurve für <a target='_self href=https://datawrapper.dwcdn.net/MCha4' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Bayern</a> zu betrachten.<br>",
     "csvUrl": "https://corona-api.interaktiv.br.de/query/intensivpatienten-de?sort=datum&fieldList=datum,anzahlIntensivpatienten",
     "height": 400
   },
@@ -51,42 +51,42 @@
   {
     "id": "rf5H5",
     "title": "Corona-Inzidenz in Bayern (Symbolkarte)",
-    "description": "Gemeldete Corona-Neuinfektionen in Bayern pro 100.000 Einwohner in den vergangenen 7 Tagen <br>Klicken Sie hier, um die Karte für <a target='_self href=https://datawrapper.dwcdn.net/aY5t8' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Deutschland</a> zu betrachten.<br>",
+    "description": "Gemeldete Corona-Neuinfektionen in Bayern pro 100.000 Einwohner in den vergangenen 7 Tagen. Klicken Sie hier, um die Karte für <a target='_self href=https://datawrapper.dwcdn.net/aY5t8' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Deutschland</a> zu betrachten.<br>",
     "csvUrl": "https://docs.google.com/spreadsheets/d/107eb4TmJrXeVa8b2jmRDXrP22eP8PBsvEeDYvO8YmYw/export?format=csv&gid=0",
     "height": 700
   },
   {
     "id": "4zOBp",
     "title": "Wie viele neue Fälle gibt es in Bayern täglich?",
-    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel <br>Klicken Sie hier, um die Kurve für <a target='_self href=https://datawrapper.dwcdn.net/FO8IT' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Deutschland</a> zu betrachten.<br>",
+    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel. Klicken Sie hier, um die Kurve für <a target='_self href=https://datawrapper.dwcdn.net/FO8IT' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Deutschland</a> zu betrachten.<br>",
     "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-bl?filter=bundesland==Bayern&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
     "height": 400
   },
   {
     "id": "NWcZ8",
     "title": "Corona-Inzidenz nach Altersgruppen in Bayern",
-    "description": "Gemeldete Corona-Neuinfektionen pro 100.000 Einwohner in den jeweils vergangenen 7 Tagen nach Alter <br>Klicken Sie hier, um die Übersicht für <a target='_self href=https://datawrapper.dwcdn.net/XiHIr' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Deutschland</a> zu betrachten.<br>",
+    "description": "Gemeldete Corona-Neuinfektionen pro 100.000 Einwohner in den jeweils vergangenen 7 Tagen nach Alter. Klicken Sie hier, um die Übersicht für <a target='_self href=https://datawrapper.dwcdn.net/XiHIr' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Deutschland</a> zu betrachten.<br>",
     "csvUrl": "https://storage.googleapis.com/brdata-public-data/corona-data-workers/altersverteilung_bayern.csv",
     "height": 350
   },
   {
     "id": "MCha4",
     "title": "Intensivpatienten in Bayern",
-    "description": "Zahl der gemeldeten Corona-Fälle in intensivmedizinischer Behandlung in Bayern <br>Klicken Sie hier, um die Kurve für <a target='_self href=https://datawrapper.dwcdn.net/jrkvL' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Deutschland</a> zu betrachten.<br>",
+    "description": "Zahl der gemeldeten Corona-Fälle in intensivmedizinischer Behandlung in Bayern. Klicken Sie hier, um die Kurve für <a target='_self href=https://datawrapper.dwcdn.net/jrkvL' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Deutschland</a> zu betrachten.<br>",
     "csvUrl": "https://corona-api.interaktiv.br.de/query/intensivpatienten-bl?filter=bundesland==Bayern&sort=datum&fieldList=datum,anzahlIntensivpatienten",
     "height": 400
   },
   {
     "id": "FYgL4",
     "title": "Wie viele Corona-Patienten werden in Bayern hospitalisiert?",
-    "description": "Hospitalisierte Covid-19-Fälle in Bayern pro 100.000 Einwohner in den vergangenen 7 Tagen nach Meldedatum der Erkrankung <br>Klicken Sie hier, um die Kurve für <a target='_self href=https://datawrapper.dwcdn.net/6K6b3' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Deutschland</a> zu betrachten.<br>",
+    "description": "Hospitalisierte Covid-19-Fälle in Bayern pro 100.000 Einwohner in den vergangenen 7 Tagen nach Meldedatum der Erkrankung. Klicken Sie hier, um die Kurve für <a target='_self href=https://datawrapper.dwcdn.net/6K6b3' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Deutschland</a> zu betrachten.<br>",
     "csvUrl": "https://docs.google.com/spreadsheets/d/1NbPIWxPTSWuJzAs4Zf120t-Y_X-9UA8BlKeqVu-I1A4/export?format=csv&id=1NbPIWxPTSWuJzAs4Zf120t-Y_X-9UA8BlKeqVu-I1A4&gid=1893489882",
     "height": 400
   },
   {
     "id": "6K6b3",
     "title": "Wie viele Corona-Patienten werden in Deutschland hospitalisiert?",
-    "description": "Hospitalisierte Covid-19-Fälle in Deutschland pro 100.000 Einwohner in den vergangenen 7 Tagen nach Meldedatum der Erkrankung <br>Klicken Sie hier, um die Kurve für <a target='_self href=https://datawrapper.dwcdn.net/FYgL4' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Bayern</a> zu betrachten.<br>",
+    "description": "Hospitalisierte Covid-19-Fälle in Deutschland pro 100.000 Einwohner in den vergangenen 7 Tagen nach Meldedatum der Erkrankung. Klicken Sie hier, um die Kurve für <a target='_self href=https://datawrapper.dwcdn.net/FYgL4' style='background:#0b9fd8; padding:1px 4px; border-radius:5px; color:#ffffff; cursor:pointer;' rel='nofollow noopener noreferrer'>Bayern</a> zu betrachten.<br>",
     "csvUrl": "https://docs.google.com/spreadsheets/d/1NbPIWxPTSWuJzAs4Zf120t-Y_X-9UA8BlKeqVu-I1A4/export?format=csv&id=1NbPIWxPTSWuJzAs4Zf120t-Y_X-9UA8BlKeqVu-I1A4&gid=1175154031",
     "height": 400
   },
@@ -128,21 +128,21 @@
   {
     "id": "hWw8L",
     "title": "Neue Corona-Fälle in Niederbayern",
-    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel",
+    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel.",
     "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-rb?filter=regierungsbezirk==Niederbayern&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
     "height": 400
   },
   {
     "id": "9zsMg",
     "title": "Neue Corona-Fälle in Oberpfalz",
-    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel",
+    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel.",
     "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-rb?filter=regierungsbezirk==Oberpfalz&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
     "height": 400
   },
   {
     "id": "QTX31",
     "title": "Neue Corona-Fälle in Schwaben",
-    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel",
+    "description": "Bestätigte Corona-Neuinfektionen nach Meldedatum mit 7-Tage Mittel.",
     "csvUrl": "https://corona-api.interaktiv.br.de/query/infektionen-rb?filter=regierungsbezirk==Schwaben&sort=meldedatum&fieldList=meldedatum,anzahlFall,mittlere7TageInfektionen",
     "height": 400
   },
@@ -173,7 +173,7 @@
   {
     "id": "sWEPp",
     "title": "So viel kostet 1 kWh Gas",
-    "description": "Preis für Neukunden bei Vertragsabschluss am jeweiligen Tag in Euro",
+    "description": "Preis für Neukunden bei Vertragsabschluss am jeweiligen Tag in Euro.",
     "csvUrl": "https://docs.google.com/spreadsheets/d/1-vDcuOO4b0IX-rogW0IyMkztRIsYkXchOj7QQFmqV64/export?format=csv&id=1-vDcuOO4b0IX-rogW0IyMkztRIsYkXchOj7QQFmqV64&gid=2096629923",
     "height": 500,
     "category": "energy"
@@ -181,7 +181,7 @@
   {
     "id": "3obk4",
     "title": "So viel kostet 1 kWh Strom",
-    "description": "Preis für Neukunden bei Vertragsabschluss am jeweiligen Tag in Euro",
+    "description": "Preis für Neukunden bei Vertragsabschluss am jeweiligen Tag in Euro.",
     "csvUrl": "https://docs.google.com/spreadsheets/d/1LHMO8Ec05hw2O9rDeQlnNBtwqh-MJuHJZIOVqHjAi9Q/export?format=csv&id=1LHMO8Ec05hw2O9rDeQlnNBtwqh-MJuHJZIOVqHjAi9Q&gid=2096629923",
     "height": 500,
     "category": "energy"
