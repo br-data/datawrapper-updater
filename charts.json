@@ -1,4 +1,25 @@
 [
+   {
+    "id": "MhUO0",
+    "title": "DAX<sup>®</sup>-Kurs der vergangenen 5 Jahre",
+    "description": "Schlusskurs des jeweiligen Tages in Punkten. Weitere Kennwerte: <span style='line-height:2.5; font-size:85%'><a target='_self' href='https://datawrapper.dwcdn.net/taVUc' style='background:#3AD19E50; border-color: #3AD19E; border-radius:5px; border-style:solid; border-width: 1.5px; box-shadow:1px 2px 0px 1px rgb(0,153,107); color:#fff; cursor:pointer; font-weight:400; padding:3px 6px' rel='nofollow noopener noreferrer'><b>MSCI World</b></a> &nbsp;&nbsp; <span style='padding: 3px 6px; border-radius:5px; border-style:solid; border-width:1.5px; border-color:#18a1cd; background:#fff; color:#333d4c; font-weight:600; box-shadow:1px 2px 0px 1px rgb(24,161,205,0.7)'>DAX®</span> &nbsp;&nbsp;<a target='_self' href='https://datawrapper.dwcdn.net/v6eM2' style='background:#FFB80050; border-color: #FFB800; border-radius:5px; border-style:solid; border-width: 1.5px; box-shadow:1px 2px 0px 1px rgb(192, 131, 0); color:#fff; cursor:pointer; font-weight:400; padding:3px 6px' rel='nofollow noopener noreferrer'><b>Goldpreis</b></a><br>",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1--2JFf5ecsB8As0QmTudd4RBFGYKCuzaFF3s0Fe_hGI/export?format=csv&id=1--2JFf5ecsB8As0QmTudd4RBFGYKCuzaFF3s0Fe_hGI",
+    "category": "stockexchange"
+  },
+     {
+    "id": "v6eM2",
+    "title": "Entwicklung des Goldpreises in den vergangenen 5 Jahren",
+    "description": "Schlusskurs des jeweiligen Tages in USD pro Feinunze. Weitere Kennwerte: <span style='line-height:2.5; font-size:85%'><a target='_self' href='https://datawrapper.dwcdn.net/taVUc' style='background:#3AD19E50; border-color: #3AD19E; border-radius:5px; border-style:solid; border-width: 1.5px; box-shadow:1px 2px 0px 1px rgb(0,153,107); color:#fff; cursor:pointer; font-weight:400; padding:3px 6px' rel='nofollow noopener noreferrer'><b>MSCI World</b></a> &nbsp;&nbsp; <a target='_self' href='https://datawrapper.dwcdn.net/MhUO0' style='padding: 3px 6px; border-radius:5px; border-style:solid; border-width:1.5px; border-color:#18a1cd; background:#0A9ED850; color:#fff; cursor:pointer; font-weight:600; box-shadow:1px 2px 0px 1px rgb(24,161,205,0.7)' rel='nofollow noopener noreferrer'>DAX®</a> &nbsp;&nbsp;<a style='background:#fff; border-color: #FFB800; border-radius:5px; border-style:solid; border-width: 1.5px; box-shadow:1px 2px 0px 1px rgb(192, 131, 0); color:#333d4c; font-weight:400; padding:3px 6px' rel='nofollow noopener noreferrer' target='_blank'><b>Goldpreis</b></a></span><br>",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1ICU5Cqyc8OG2wXn0euyHIq5DyuCjkyw599qI5S0UyhA/export?format=csv&id=1ICU5Cqyc8OG2wXn0euyHIq5DyuCjkyw599qI5S0UyhA",
+    "category": "stockexchange"
+  },
+       {
+    "id": "taVUc",
+    "title": "Core MSCI World (ETF) Kurs der vergangenen 5 Jahre",
+    "description": "Schlusskurs des jeweiligen Tages in Euro. Weitere Kennwerte: <span style='line-height:2.5; font-size:85%'><a style='background:#fff; border-color: #3AD19E; border-radius:5px; border-style:solid; border-width: 1.5px; box-shadow:1px 2px 0px 1px rgb(0,153,107); color:#333d4c; font-weight:400; padding:3px 6px' rel='nofollow noopener noreferrer'><b>MSCI World</b></a> &nbsp;&nbsp; <a target='_self' href='https://datawrapper.dwcdn.net/MhUO0' style='padding: 3px 6px; border-radius:5px; border-style:solid; border-width:1.5px; border-color:#18a1cd; background:#0A9ED850; color:#fff; cursor:pointer; font-weight:600; box-shadow:1px 2px 0px 1px rgb(24,161,205,0.7)' rel='nofollow noopener noreferrer'>DAX®</a> &nbsp;&nbsp;<a target='_self' href='https://datawrapper.dwcdn.net/v6eM2' style='background:#FFB80060; border-color: #FFB800; border-radius:5px; border-style:solid; border-width: 1.5px; cursor:pointer; box-shadow:1px 2px 0px 1px rgb(192, 131, 0); color:#fff; font-weight:400; padding:3px 6px' rel='nofollow noopener noreferrer' target='_blank'><b>Goldpreis</b></a></span><br>",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1o4_b1OKEh3F0_jnPMAP1ALlAknUPpUNxTy65H79Bi-A/export?format=csv&id=1o4_b1OKEh3F0_jnPMAP1ALlAknUPpUNxTy65H79Bi-A",
+    "category": "stockexchange"
+  },
   {
     "id": "S5Rju",
     "title": "Core MSCI World (ETF) Kurs der vergangenen 5 Jahre",
