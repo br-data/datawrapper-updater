@@ -1,4 +1,12 @@
 [
+     {
+    "id": "4s1mf",
+    "title": "Aktuelle Waldbrandgefahr in Bayern",
+    "description": "Waldbrandgefahrenindex für bayerische Stationen. ",
+    "csvUrl": "https://docs.google.com/spreadsheets/d/1pR9UYA6wAGmhfPI2nmehEFHwskjLGizcn2vwm3w2_BI/edit?usp=sharing",
+    "height": 500,
+    "category": "nature"
+  }
    {
     "id": "MhUO0",
     "title": "DAX<sup>®</sup>-Kurs der vergangenen 5 Jahre",
