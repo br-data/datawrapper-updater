@@ -92,14 +92,14 @@
   {
     "id": "XrsyY",
     "title": "DAX®-Kurs der vergangenen 12 Monate",
-    "description": "Schlusskurs des jeweiligen Tages in Punkten.<br><br><span style='line-height:1.7; font-size:100%'>Klicken Sie <a target='_self' href='https://datawrapper.dwcdn.net/fpFP6/' style='background:#CDFF00; border-color: #CDFF00; border-radius:5px; border-style:solid; border-width: 1.5px; cursor:pointer; box-shadow:1px 2px 0px 1px #001E4670; color:#000; font-weight:400; padding:3px 6px' rel='nofollow noopener noreferrer'>hier</a>, um den <b>Verlauf der vergangenen 5 Jahre</b> zu sehen.</span><br><br>",
+    "description": "Schlusskurs des jeweiligen Tages in Punkten.<br><br><span style='line-height:1.7; font-size:100%'>Klicken Sie <a target='_self' href='https://datawrapper.dwcdn.net/fpFP6/' style='background:#CDFF00; border-color: #CDFF00; border-radius:5px; border-style:solid; border-width: 1.5px; cursor:pointer; box-shadow:1px 2px 0px 1px #001E4670; color:#000; font-weight:400; padding:3px 6px' rel='nofollow noopener noreferrer'>hier</a> , um den <b>Verlauf der vergangenen 5 Jahre</b> zu sehen.</span><br><br>",
     "csvUrl": "https://docs.google.com/spreadsheets/d/1--2JFf5ecsB8As0QmTudd4RBFGYKCuzaFF3s0Fe_hGI/export?format=csv&id=1--2JFf5ecsB8As0QmTudd4RBFGYKCuzaFF3s0Fe_hGI",
     "category": "stockexchange"
   },
   {
     "id": "fpFP6",
     "title": "DAX®-Kurs der vergangenen 5 Jahre",
-    "description": "Schlusskurs des jeweiligen Tages in Punkten.<br><br><span style='line-height:1.7; font-size:100%'>Klicken Sie <a target='_self' href='https://datawrapper.dwcdn.net/XrsyY/' style='background:#CDFF00; border-color: #CDFF00; border-radius:5px; border-style:solid; border-width: 1.5px; cursor:pointer; box-shadow:1px 2px 0px 1px #001E4670; color:#000; font-weight:400; padding:3px 6px' rel='nofollow noopener noreferrer'>hier</a>, um die <b>vergangenen 12 Monate</b> zu sehen.</span><br><br>",
+    "description": "Schlusskurs des jeweiligen Tages in Punkten.<br><br><span style='line-height:1.7; font-size:100%'>Klicken Sie <a target='_self' href='https://datawrapper.dwcdn.net/XrsyY/' style='background:#CDFF00; border-color: #CDFF00; border-radius:5px; border-style:solid; border-width: 1.5px; cursor:pointer; box-shadow:1px 2px 0px 1px #001E4670; color:#000; font-weight:400; padding:3px 6px' rel='nofollow noopener noreferrer'>hier</a> , um die <b>vergangenen 12 Monate</b> zu sehen.</span><br><br>",
     "csvUrl": "https://docs.google.com/spreadsheets/d/1yBjpCmoj3gDoX55MQcp7oiJjy4FAd9v6qa7uS6FMjRM/export?format=csv&id=1yBjpCmoj3gDoX55MQcp7oiJjy4FAd9v6qa7uS6FMjRM",
     "category": "stockexchange"
   },
