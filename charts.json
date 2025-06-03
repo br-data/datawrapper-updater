@@ -85,7 +85,7 @@
   {
     "id": "Ge8Vz",
     "title": "Bitcoin-Kurs in USD",
-    "description": "Tageshöchst- und -tiefstwert. <i style='border-bottom: 3px dotted #FFB800; padding: 0px 2px;  background: #0A9ED89000; line-height: 150%';><br><br>",
+    "description": "Tageshöchst- und -tiefstwert.<br><br>",
     "csvUrl": "https://docs.google.com/spreadsheets/d/1dvJ6R009ECmL5aMyFLIucuddJUj8QYADNq3AVt7NAG8/export?format=csv&id=1dvJ6R009ECmL5aMyFLIucuddJUj8QYADNq3AVt7NAG8",
     "category": "stockexchange"
   },
