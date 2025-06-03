@@ -70,15 +70,15 @@
   },
   {
     "id": "S5Rju",
-    "title": "Core MSCI World (ETF) Kurs der vergangenen 5 Jahre",
+    "title": "iShares Core MSCI World (ETF) Kurs der vergangenen 5 Jahre",
     "description": "Schlusskurs des jeweiligen Tages in Euro.<br><br>Klicken Sie <a target='_self' href='https://datawrapper.dwcdn.net/UjBSi/' style='background:#3ad19e80; padding:1px 6px; border-radius:5px; color:#ffffff; font-weight:400; box-shadow:0px 0px 7px 2px rgba(0,0,0,0.07); cursor:pointer;' rel='nofollow noopener noreferrer'>hier</a>, um die <b>vergangenen 12 Monate</b> zu sehen.<br><br>",
     "csvUrl": "https://docs.google.com/spreadsheets/d/1o4_b1OKEh3F0_jnPMAP1ALlAknUPpUNxTy65H79Bi-A/export?format=csv&id=1o4_b1OKEh3F0_jnPMAP1ALlAknUPpUNxTy65H79Bi-A",
     "category": "stockexchange"
   },
   {
     "id": "UjBSi",
-    "title": "Core MSCI World (ETF) Kurs der vergangenen 12 Monate",
-    "description": "Schlusskurs des jeweiligen Tages in Euro.<br><br>Klicken Sie<a target='_self' href='https://datawrapper.dwcdn.net/S5Rju/' style='background:#3ad19e80; padding:1px 6px; border-radius:5px; color:#ffffff; font-weight:400; box-shadow:0px 0px 7px 2px rgba(0,0,0,0.07); cursor:pointer;' rel='nofollow noopener noreferrer'> hier</a>, um den <b>Verlauf der vergangenen 5 Jahre</b> zu sehen.<br><br>",
+    "title": "iShares Core MSCI World (ETF) Kurs der vergangenen 12 Monate",
+    "description": "Schlusskurs des jeweiligen Tages in Euro.<br><br>Klicken Sie <a target='_self' href='https://datawrapper.dwcdn.net/UjBSi/' style='background:#CDFF00; border-color: #CDFF00; border-radius:5px; border-style:solid; border-width: 1.5px; cursor:pointer; box-shadow:1px 2px 0px 1px #001E4670; color:#000; font-weight:400; padding:3px 6px' rel='nofollow noopener noreferrer'>hier</a> , um die <b>vergangenen 12 Monate</b> zu sehen.<br><br>",
     "csvUrl": "https://docs.google.com/spreadsheets/d/1bcdtp5MECQZ9SpdV1FfvFe30ix6YuTj22P62eYvJuH8/export?format=csv&id=1bcdtp5MECQZ9SpdV1FfvFe30ix6YuTj22P62eYvJuH8",
     "category": "stockexchange"
   },
