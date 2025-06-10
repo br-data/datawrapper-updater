@@ -109,6 +109,7 @@
     "description": "Schlusskurs des jeweiligen Tages in Euro pro Feinunze.<br><br>Klicken Sie <a target='_self' href='https://datawrapper.dwcdn.net/D4Vs4/' style='background:#CDFF00; border-color: #CDFF00; border-radius:5px; border-style:solid; border-width: 1.5px; cursor:pointer; box-shadow:1px 2px 0px 1px #001E4670; color:#000; font-weight:400; padding:3px 6px' rel='nofollow noopener noreferrer'>hier</a> , um die <b>vergangenen 12 Monate</b> zu sehen.<br><br>",
     "csvUrl": "hhttps://docs.google.com/spreadsheets/d/165vlDieQNgyMKYUjJOQ-zG7eMuUGfqkiHw76AsKERy0/export?format=csv&id=165vlDieQNgyMKYUjJOQ-zG7eMuUGfqkiHw76AsKERy0&gid=1655309381",
     "category": "stockexchange"
+  },
   {
     "id": "D4Vs4",
     "title": "Entwicklung des Goldpreises in den vergangenen 12 Monaten",
@@ -116,7 +117,6 @@
     "csvUrl": "https://docs.google.com/spreadsheets/d/165vlDieQNgyMKYUjJOQ-zG7eMuUGfqkiHw76AsKERy0/export?format=csv&id=165vlDieQNgyMKYUjJOQ-zG7eMuUGfqkiHw76AsKERy0&gid=455952426",
     "category": "stockexchange"
   },
-
   {
     "id": "aY5t8",
     "title": "Corona-Inzidenz in Deutschland (Symbolkarte)",
