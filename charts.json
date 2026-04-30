@@ -280,26 +280,10 @@
     "height": 400
   },
   {
-    "id": "xstrW",
-    "title": "So viel kostet 1 Liter Super Benzin",
-    "description": "Mittlerer Preis aller gemeldeten Tankstellen in Euro.",
-    "csvUrl": "https://docs.google.com/spreadsheets/d/1k8JquYj7xCHlhAzh9HzQhHCJM0V_QNNEgckNCqHL-dc/export?format=csv&id=1k8JquYj7xCHlhAzh9HzQhHCJM0V_QNNEgckNCqHL-dc",
-    "height": 500,
-    "category": "energy"
-  },
-  {
     "id": "bKfbh",
     "title": "So viel kostet 1 Liter Diesel",
     "description": "Mittlerer Preis aller gemeldeten Tankstellen in Euro.",
     "csvUrl": "https://docs.google.com/spreadsheets/d/1k8JquYj7xCHlhAzh9HzQhHCJM0V_QNNEgckNCqHL-dc/export?format=csv&id=1k8JquYj7xCHlhAzh9HzQhHCJM0V_QNNEgckNCqHL-dc",
-    "height": 500,
-    "category": "energy"
-  },
-  {
-    "id": "03HXT",
-    "title": "So viel kostet 1 Liter E10",
-    "description": "Mittlerer Preis aller gemeldeten Tankstellen in Euro.",
-    "csvUrl": "https://docs.google.com/spreadsheets/d/1k8JquYj7xCHlhAzh9HzQhHCJM0V_QNNEgckNCqHL-dc/export?format=csv&id=1k8JquYj7xCHlhAzh9HzQhHCJM0V_QNNEgckNCqHL-dc&gid=123142849",
     "height": 500,
     "category": "energy"
   },
